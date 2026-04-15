@@ -1,0 +1,23 @@
+SOAP API Added
+==============
+
+Added package:
+- src/com/fooddelivery/api
+
+Files:
+- FoodDeliveryWebService.java
+- FoodDeliveryWebServiceImpl.java
+- ApiPublisher.java
+
+Exposed methods:
+1. getRestaurantsByArea(String area)
+2. getMenuByRestaurant(String restaurantName)
+
+How to run:
+1. Run com.fooddelivery.api.ApiPublisher
+2. Open this URL in browser:
+   http://localhost:8080/fooddelivery?wsdl
+
+Note:
+- This API uses simple SOAP / WSDL style with JAX-WS.
+- If your Java version is newer than JDK 8, JAX-WS may need to be added separately.
